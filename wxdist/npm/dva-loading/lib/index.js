@@ -1,19 +1,19 @@
 "use strict";
 
-var _interopRequireDefault = require("../../@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = require("../npm/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = undefined;
 
-var _regenerator = _interopRequireDefault(require("../../@babel/runtime/regenerator/index.js"));
+var _regenerator = _interopRequireDefault(require("../npm/@babel/runtime/regenerator/index.js"));
 
-var _keys = _interopRequireDefault(require("../../@babel/runtime/core-js/object/keys.js"));
+var _keys = _interopRequireDefault(require("../npm/@babel/runtime/core-js/object/keys.js"));
 
-var _defineProperty2 = _interopRequireDefault(require("../../@babel/runtime/helpers/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(require("../npm/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectSpread6 = _interopRequireDefault(require("../../@babel/runtime/helpers/objectSpread.js"));
+var _objectSpread6 = _interopRequireDefault(require("../npm/@babel/runtime/helpers/objectSpread.js"));
 
 var SHOW = '@@DVA_LOADING/SHOW';
 var HIDE = '@@DVA_LOADING/HIDE';

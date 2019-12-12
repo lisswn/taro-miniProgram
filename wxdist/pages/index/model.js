@@ -8,9 +8,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _service = require('./service.js');
 
-var _service2 = _interopRequireDefault(_service);
+var Api = _interopRequireWildcard(_service);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 exports.default = {
   namespace: 'home',
@@ -29,7 +29,7 @@ exports.default = {
             case 0:
               _context.prev = 0;
               _context.next = 3;
-              return call(_service2.default.getHomeInfo, payload);
+              return call(Api.getHomeInfo, payload);
 
             case 3:
               res = _context.sent;

@@ -1,4 +1,4 @@
-import Api from './service'
+import * as Api from './service'
 
 export default {
   namespace: 'home',
