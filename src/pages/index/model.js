@@ -8,7 +8,7 @@ export default {
   effects: {
     * getHomeInfo({payload}, {call, put}) {
       try {
-        const res = yield call(Api.homeInfo, payload)
+        const res = yield call(Api.getHomeInfo, payload)
         if (res && res.success) {
           yield put({
             type: 'save',
