@@ -1,4 +1,6 @@
-dist/
+#wxdist/
+swandist/
+alipaydist/
 deploy_versions/
 .temp/
 .rn_temp/

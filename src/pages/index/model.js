@@ -1,4 +1,4 @@
-import Api from './service'
+import * as Api from './service'
 
 export default {
   namespace: 'home',
@@ -8,7 +8,7 @@ export default {
   effects: {
     * getHomeInfo({payload}, {call, put}) {
       try {
-        const res = yield call(Api.getHomeInfo, payload)
+        const res = yield call(Api.homeInfo, payload)
         if (res && res.success) {
           yield put({
             type: 'save',

@@ -31,7 +31,7 @@ export default (options = {method: 'GET', data: {}, taro_env: true}) => {
       Taro.setStorageSync('wxsid-sessionid', wxsidRewrite);
     }
     if (statusCode >= 200 && statusCode < 300) {
-      return data;
+      return data
     }
     if (statusCode === 403) {  // 登录失效后清除登录缓存
       Taro.setStorageSync('user_info', {})

@@ -1,4 +1,4 @@
-import home from '../pages/index/model'
+import home from '@/pages/index/model'
 
 export default [
   home
